@@ -2,8 +2,6 @@
 
 Estudando Versionador de Códigos (CVS/SVN/GIT).  
 
-## Release: 0.0.2
-
 ## MarginNote
 
 <marginnote3app://note/1467C880-2120-4578-8085-B9B94313CFE2>  
@@ -119,6 +117,15 @@ Além de manter as alterações registradas na linha do tempo do Repositório Lo
 
 O arquivo ".gitignore" não é obrigatório, e pode já ser definido no momento da "Criar um repositório". No caso existem templates prontos para definir o ".gitignore", como pode ser visto em: [https://github.com/github/gitignore](https://github.com/github/gitignore "https://github.com/github/gitignore"). O como é um arquivo de texto plano é fácil modifica-lo e entender sua definição. Na aba "Source Control" é possível marcar um arquivo/pasta como "ignorado" (usando Add to .gitignore).  
 Ou ainda, em: <https://www.toptal.com/developers/gitignore>  
+
+### Tags
+
+    git tag -a 0.0.1 -m Release: 0.0.1  
+
+No VSCode:  
+
+    Git: Create Tag
+    Git: Push (Follow Tags)
 
 ----
 
