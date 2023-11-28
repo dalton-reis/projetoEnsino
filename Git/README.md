@@ -122,6 +122,12 @@ Ou ainda, em: <https://www.toptal.com/developers/gitignore>
 
 ----
 
+## Git Large File Storage
+
+[git-lfs.com](https://git-lfs.com/)
+
+----
+
 ## VSCode Extensões - GitFlow - mais extensões
 
 Mostra o uso de algumas extensões, entre elas o GitFlow:  
