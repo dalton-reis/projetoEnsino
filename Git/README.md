@@ -118,6 +118,13 @@ Além de manter as alterações registradas na linha do tempo do Repositório Lo
 O arquivo ".gitignore" não é obrigatório, e pode já ser definido no momento da "Criar um repositório". No caso existem templates prontos para definir o ".gitignore", como pode ser visto em: [https://github.com/github/gitignore](https://github.com/github/gitignore "https://github.com/github/gitignore"). O como é um arquivo de texto plano é fácil modifica-lo e entender sua definição. Na aba "Source Control" é possível marcar um arquivo/pasta como "ignorado" (usando Add to .gitignore).  
 Ou ainda, em: <https://www.toptal.com/developers/gitignore>  
 
+### Git SubModule
+
+[git-submodule](https://git-scm.com/docs/git-submodule)  
+[stackoverflow git-submodule](https://stackoverflow.com/questions/36554810/how-to-link-folder-from-a-git-repo-to-another-repo)  
+
+    git submodule add <url>  
+
 ### Tags
 
     git tag -a 0.0.1 -m Release: 0.0.1  
