@@ -124,6 +124,8 @@ Ou ainda, em: <https://www.toptal.com/developers/gitignore>
 [stackoverflow git-submodule](https://stackoverflow.com/questions/36554810/how-to-link-folder-from-a-git-repo-to-another-repo)  
 
     git submodule add <url>  
+    git submodule init  
+    git submodule update  
 
 ### Tags
 
@@ -133,6 +135,16 @@ No VSCode:
 
     Git: Create Tag
     Git: Push (Follow Tags)
+
+### Criar Git usando Template
+
+    gh repo create tcc_XYZ --private --template=https://github.com/dalton-reis/tcc__modelo
+    cd /Users/daltonreis/GitHub/TCC
+    gh repo clone https://github.com/dalton-reis/tcc_XYZ.git
+    cd tcc_XYZ/_dalton
+    gh repo sync
+    ln -s /Users/daltonreis/GitHub/disciplinas/TCC1/disciplinaTCC1Privado/_._/OLD/2023-1/BCC/XYZ    TCC1
+    cd ~
 
 ----
 
